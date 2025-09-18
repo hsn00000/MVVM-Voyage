@@ -56,6 +56,7 @@ public class KitVoyage {
 	public int getNbOptions(){
 		return lesOptions.size();
 	}
+
 }
     
 

@@ -1,5 +1,4 @@
 package com.example.mvvm_note.ui.notes;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

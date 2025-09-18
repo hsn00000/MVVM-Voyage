@@ -1,4 +1,4 @@
-package com.example.mvvm_note;
+package com.example.mvvm_voyage;
 
 import android.content.Context;
 

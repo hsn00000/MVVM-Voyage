@@ -36,24 +36,5 @@ public class NotesRepository {
         notes.setValue(current);
     }
 
-    /** Simule un "load" : par ex. chargement initial depuis une API */
-    public void load() {
-        List<Note> demo = Arrays.asList(
-                new Note("Bienvenue", "Ceci est votre première note."),
-                new Note("Astuce", "Ajoutez un titre et un texte, puis validez !")
-        );
-        setAll(demo);
-    }
 
-    public void remove(Note note) {
-        List<Note> current = new ArrayList<>(notes.getValue());
-        current.remove(note);
-        notes.setValue(current);
-    }
-
-    public void removeByTitle(String title) {
-        List<Note> current = new ArrayList<>(notes.getValue());
-        current.removeIf(n -> n.getTitle().equals(title));
-        notes.setValue(current);
-    }
 }

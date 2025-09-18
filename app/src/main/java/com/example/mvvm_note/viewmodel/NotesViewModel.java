@@ -1,6 +1,5 @@
 package com.example.mvvm_note.viewmodel;
 
-
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 

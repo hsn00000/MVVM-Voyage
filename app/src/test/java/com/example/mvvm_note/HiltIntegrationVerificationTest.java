@@ -1,7 +1,7 @@
-package com.example.mvvm_note;
+package com.example.mvvm_voyage;
 
-import com.example.mvvm_note.data.repository.NotesRepository;
-import com.example.mvvm_note.viewmodel.NotesViewModel;
+import com.example.mvvm_voyage.data.repository.NotesRepository;
+import com.example.mvvm_voyage.viewmodel.NotesViewModel;
 
 import org.junit.Test;
 
