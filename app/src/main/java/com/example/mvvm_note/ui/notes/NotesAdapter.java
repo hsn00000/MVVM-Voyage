@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.mvvm_note.R;
-import com.example.mvvm_note.model.Note;
 
 import java.util.ArrayList;
 import java.util.List;

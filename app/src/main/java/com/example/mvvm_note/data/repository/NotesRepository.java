@@ -4,8 +4,6 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 
-import com.example.mvvm_note.model.Note;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
